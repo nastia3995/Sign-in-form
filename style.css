@@ -1,0 +1,150 @@
+*{
+    margin:0;
+}
+.bg_image{
+    position:fixed;
+background-image: url(business.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(30px);
+    width:100vw;
+    height:100vh;
+    z-index:-1;
+
+}
+.form{
+    width: 50%;
+    height: 50%;
+background-color: #d51834;
+    position: fixed;
+    padding-top: 2%;
+    padding-left: 3%;
+    top: 20%;
+    left: 25%;
+    overflow: hidden;
+}
+.leftside{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+h1{
+    font-size: 200%;
+    font-family: Cambria;
+    color: lightseagreen ;
+
+}
+h2{
+    font-size:60%;
+    font-family: Cambria;
+    color: black ;
+}
+h2>em{
+    font-style: inherit;
+    padding-bottom: 3%;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+label{
+    font-family: Cambria;
+}
+label>em{
+    color: white;
+}
+.input{
+    position: relative;
+    padding-bottom: 5%;
+    height: 13%;
+    width:100%;
+}
+input{
+    position:relative;
+    border: none;
+    height: 70%;
+    width:50%;
+    display: block;
+}
+.input+.input+.input{
+    padding: 0;
+              }
+input:focus{
+    outline: none;
+}
+.img{
+    position: relative;
+    width:50%;
+    height: 150%;
+    top:-10%;
+    float:right;
+    overflow: hidden;
+}
+.img>img{
+    position: relative;
+    width:100%;
+    height: 100%;
+    align-content: center;
+    object-fit: cover;
+}
+.button{
+    display: flex;
+    align-content: center;
+    height: 100%;
+    width:50%;
+    position: relative;
+    overflow: hidden;
+}
+.button>button{
+    border-radius: 30px;
+    height: 50px;
+    width: 100%;
+    background-color: aquamarine;
+    border: none;
+    font-family: Gineva;
+    font-size: 130%;
+}
+.bottom>.has_acc{
+    position: relative;
+    width: 50%;
+    float: right;
+}
+
+.bottom>.button{
+    width: 50%;
+    float:left;
+    position: relative;
+}
+.bottom{
+    position: relative;
+    display: inline-flex;
+    height: 25%;
+    width: 100%;
+    padding-top: 5%;
+    padding-right: 5%;
+
+}
+.has_acc>p{
+    font-family: Cambria;
+    font-size: 100%;
+    padding-left: 5%;
+}
+.has_acc>p+p{
+    color: white;
+}
+.h1{
+    height: 20%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 2%;
+}
+.h2{
+    height: 15%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 2%;
+}
+input::placeholder{
+    font-style: italic;
+    font-family: Cambria;
+}
